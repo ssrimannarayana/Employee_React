@@ -13,6 +13,7 @@ import Service from './components/Service';
 import About from './components/About';
 import Contact from './components/Contact';
 import Login from './components/Login';
+import Profile from './components/Profile';
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
                           <Route path = "/about" component = {About}></Route>
                           <Route path = "/contact" component = {Contact}></Route>
                           <Route path = "/login" component = {Login}></Route>
+                          <Route path = "/profile" component = {Profile}></Route>
                           <Route path = "/view-employee/:id" component = {ViewEmployeeComponent}></Route>
                           {/* <Route path = "/update-employee/:id" component = {UpdateEmployeeComponent}></Route> */}
                     </Switch>
