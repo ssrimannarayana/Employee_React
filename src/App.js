@@ -19,7 +19,7 @@ function App() {
   return (
     <div>
         <Router>
-              <HeaderComponent name="Website"/>
+              <HeaderComponent name="kanakadurga"/>
                 <div className="container">
                     <Switch> 
                           <Route path = "/" exact component = {ListEmployeeComponent}></Route>
